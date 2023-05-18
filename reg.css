@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(91, 33, 105, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #665b5b;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    padding: 25px 40px;
+    background: azure;
+    border-radius: 5px;
+    box-shadow: 10px 5px rgba(54, 50, 53, 0.3);
+
+}
+
+.container strong {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #665b5b;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+}
+
+
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    border-bottom-width: 2px;
+    font-size: 16px;
+}
+
+.user-details .input-box .details {
+    font-weight: bold;
+    display: block;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #394c50;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0px;
+    border-width: 5px solid;
+    
+}
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: black;
+    background: linear-gradient(rgba(91, 33, 105, 0.5), rgba(0, 0, 0, 0.5));
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+
+}
+ form .sign{
+    display:flex;
+    margin-bottom: 0px;
+    justify-content: center;
+    padding-top: 0px;
+    font-size: 15px;
+    position: relative;
+    top:0px;
+   
+
+    
+    
+    
+}
